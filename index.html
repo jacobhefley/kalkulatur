@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" text="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Calculator</h1>
+      </div>
+     <form id="add">
+       <div class="form-group">
+         <label for="add1">first number:</label>
+         <input type="text" class="form-control" id="add1" placeholder="first number">
+       </div>
+       <div class="form-group">
+         <label for="add2">2nd number:</label>
+         <input type="text" class="form-control" id="add2" placeholder="second number">
+       </div>
+       <button type="submit" class="btn btn-default">Add!</button>
+     </form>
+   </div>
+   <!-- results to pop up -->
+      <div class="container">
+          <p>computed value: <span id="calculatedresult"></span></p>
+      </div>
+  </body>
+  <script src="js/jquery-1.12.2.js"></script>
+  <script src="js/scripts.js"></script>
+</html>
